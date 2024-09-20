@@ -1,5 +1,5 @@
 
-# Překlady Moderních Výrazů - React App
+# Slovníku Novočeštiny - React App
 
 Tento projekt slouží k překladu současných anglických termínů do češtiny. Webová aplikace poskytuje uživatelsky přívětivý rozhraní, kde si můžete vyhledat překlady pro různá slova a pojmy, a nabízí podrobné informace o jejich původu, důvodech pro překlad a příkladech použití. Je postavena na [Create React App](https://github.com/facebook/create-react-app) a využívá [Tailwind CSS](https://tailwindcss.com) pro stylizaci.
 

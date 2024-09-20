@@ -22,12 +22,11 @@ const Footer = () => {
         <div className="flex flex-wrap justify-between">
           <div className="w-full md:w-1/3 mb-4 md:mb-0">
             <h3 className="text-lg font-semibold mb-2">O projektu</h3>
-            <p>Česká Wiki Překladů je můj malý projekt zaměřený na překlad moderních anglických výrazů do češtiny.</p>
+            <p>Slovníku Novočeštiny je můj malý projekt zaměřený na překlad moderních anglických výrazů do češtiny.</p>
           </div>
           <div className="w-full md:w-1/3 mb-4 md:mb-0">
             <h3 className="text-lg font-semibold mb-2">Užitečné odkazy</h3>
             <ul>
-              <li><Link to="/" className="text-blue-600 hover:underline">Domů</Link></li>
               <li><a href="https://slovnikcestiny.cz/uvod.php" className="text-blue-600 hover:underline">Slovník češtiny</a></li>
               <li><a href="https://github.com/FoxDeFacto" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">GitHub repozitář</a></li>
             </ul>
@@ -38,7 +37,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="mt-8 text-center text-sm text-gray-500">
-          &copy; {new Date().getFullYear()} Česká Wiki Překladů. Všechna práva vyhrazena.
+          &copy; {new Date().getFullYear()} Slovníku Novočeštiny.
         </div>
       </div>
     </footer>

@@ -34,11 +34,11 @@ export const translations = [
   },
   {
     id: 15,
-    english: "Red flag",
-    czech: ["červená vlajka", "červená vlaječka"],
-    etymology: "Termín označuje varovné znamení, typicky v kontextu vztahů nebo nebezpečí.",
-    reason: "Doslovný překlad, který se používá i v českém jazyce jako symbol varování.",
-    example: "Jeho neochota diskutovat o důležitých věcech byla velkou červenou vlajkou."
+    english: "Rogue",
+    czech: ["blud", "tulák"],
+    etymology: "Rogue označuje osobu jednající mimo pravidla nebo konvence, často ve hrách či literatuře.",
+    reason: "Blud a tulák zachycují význam slova rogue jako někoho, kdo se odchyluje od normy.",
+    example: "Tento blud nikdy nehraje podle pravidel."
   },
   {
     id: 16,
@@ -55,14 +55,6 @@ export const translations = [
     etymology: "Termín označuje stav, kdy někdo něco intenzivně prožívá nebo se s tím dobře cítí.",
     reason: "Překlad zachovává původní význam slova 'vibe' ve smyslu prožívání momentu.",
     example: "Na koncertě celá místnost vibrovala do rytmu hudby."
-  },
-  {
-    id: 18,
-    english: "Rogue",
-    czech: ["blud", "tulák"],
-    etymology: "Rogue označuje osobu jednající mimo pravidla nebo konvence, často ve hrách či literatuře.",
-    reason: "Blud a tulák zachycují význam slova rogue jako někoho, kdo se odchyluje od normy.",
-    example: "Tento blud nikdy nehraje podle pravidel."
   },
   {
     id: 19,
@@ -127,5 +119,13 @@ export const translations = [
     etymology: "Termín 'bladerunner' byl popularizován stejnojmenným sci-fi filmem z roku 1982, označující lovce androidů.",
     reason: "Překlady kombinují slova 'čepel' nebo 'meč' s různými českými výrazy pro pohyb nebo činnost, zachovávající odkaz na původní termín.",
     example: "Čepeloběh pronásledoval uprchlého androida ulicemi neonového města."
+  },
+  {
+    id: 27,
+    english: "Red flag",
+    czech: ["červená vlajka", "červená vlaječka"],
+    etymology: "Termín označuje varovné znamení, typicky v kontextu vztahů nebo nebezpečí.",
+    reason: "Doslovný překlad, který se používá i v českém jazyce jako symbol varování.",
+    example: "Jeho neochota diskutovat o důležitých věcech byla velkou červenou vlajkou."
   },
 ];
