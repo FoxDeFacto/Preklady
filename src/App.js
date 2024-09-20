@@ -9,7 +9,6 @@ import TranslationDetail from './pages/TranslationDetail';
 const App = () => {
   return (
     <HashRouter>
-      <Router>
         <div className="flex flex-col min-h-screen">
           <Navbar />
           <main className="flex-grow">
@@ -21,7 +20,6 @@ const App = () => {
           </main>
           <Footer />
         </div>
-      </Router>
     </HashRouter>
   );
 };
