@@ -13,9 +13,9 @@ const App = () => {
         <Navbar />
         <main className="flex-grow">
           <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/all" element={<AllTranslations />} />
-            <Route path="/detail/:id" element={<TranslationDetail />} />
+            <Route path="/Preklady" element={<Home />} />
+            <Route path="/Preklady/all" element={<AllTranslations />} />
+            <Route path="/Preklady/detail/:id" element={<TranslationDetail />} />
           </Routes>
         </main>
         <Footer />
