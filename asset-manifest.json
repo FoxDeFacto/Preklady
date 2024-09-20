@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Preklady/static/css/main.03882228.css",
-    "main.js": "/Preklady/static/js/main.2b73eb16.js",
+    "main.js": "/Preklady/static/js/main.6d09e6df.js",
     "static/js/453.32762012.chunk.js": "/Preklady/static/js/453.32762012.chunk.js",
     "index.html": "/Preklady/index.html",
     "main.03882228.css.map": "/Preklady/static/css/main.03882228.css.map",
-    "main.2b73eb16.js.map": "/Preklady/static/js/main.2b73eb16.js.map",
+    "main.6d09e6df.js.map": "/Preklady/static/js/main.6d09e6df.js.map",
     "453.32762012.chunk.js.map": "/Preklady/static/js/453.32762012.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.03882228.css",
-    "static/js/main.2b73eb16.js"
+    "static/js/main.6d09e6df.js"
   ]
 }
