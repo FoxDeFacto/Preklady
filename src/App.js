@@ -12,7 +12,7 @@ const App = () => {
       <div className="flex flex-col min-h-screen">
         <Navbar />
         <main className="flex-grow">
-          <Routes>
+          <Routes basename="/Preklady">
             <Route path="/" element={<Home />} />
             <Route path="/all" element={<AllTranslations />} />
             <Route path="/detail/:id" element={<TranslationDetail />} />
