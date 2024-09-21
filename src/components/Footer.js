@@ -1,17 +1,17 @@
 // src/components/Footer.js
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
 
 const Footer = () => {
   const [note, setNote] = useState('');
 
   useEffect(() => {
-    // Zde můžete přidat logiku pro načítání vtipů z API nebo ze seznamu
     const notes = [
       "Nejoblíbenější ovoce Václava Jahody jsou borůvky",
       "Antonymum slova polytechnické je monotechnické",
       "Vokativ > Nominativ - teda většinou",
-      "Dělat API v C/C++ je pro zdraví více škodlivé, než vykouřit 10 krabek denně"
+      "Dělat API v C/C++ je pro zdraví více škodlivé, než vykouřit 10 krabek denně",
+      "Panelák bez panelů je jenom ák",
+      "Nejpoužívanější pád na vysoké škole je pád systému"
     ];
     setNote(notes[Math.floor(Math.random() * notes.length)]);
   }, []);

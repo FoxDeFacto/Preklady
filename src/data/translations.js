@@ -9,11 +9,20 @@ export const translations = [
     example: "Jeho neustálé popírání reality ji přimělo pochybovat o vlastním úsudku - klasický případ plynosvětlení."
   },
   {
+    id: 5,
+    english: "Ghosting",
+    czech: ["zduchnout"],
+    verb: ["zduchnout"],
+    etymology: "Kombinace slov 'zdrhnout' (utéct) a 'duch', odkazující na náhlé zmizení bez vysvětlení.",
+    reason: "'Zduchnout' zachycuje podstatu ghostingu - náhlé zmizení z něčího života, jako by se člověk stal duchem. Zároveň připomíná známé české slovo 'zdrhnout'.",
+    example: "Po třech schůzkách jí prostě zduchnul, už se neozval."
+  },
+  {
     id: 10,
     english: "Like",
     czech: ["palčík", "podobajka"],
     etymology: "Termín 'like' se používá na sociálních sítích jako projev souhlasu, uznání nebo sympatie k příspěvku.",
-    reason: "'Palčík' je odvozen z symbolu palce nahoru, který se často používá na sociálních sítích. 'Podobajka' je hravý výraz, který reflektuje souhlas nebo zalíbení.",
+    reason: "'Palčík' je odvozen z symbolu palce nahoru, který se často používá na sociálních sítích. 'Podobajka' je výraz, který reflektuje souhlas nebo zalíbení.",
     example: "Dal jsem palčík na její fotku, protože vypadala opravdu skvěle."
   },
   {
@@ -29,7 +38,7 @@ export const translations = [
     english: "Flashback",
     czech: ["záblesk", "prohled", "záhled", "pamětka"],
     etymology: "Flashback je anglický termín označující náhlé vzpomínky nebo obrazy z minulosti.",
-    reason: "Překlady reflektují významový kontext návratu nebo vzpomínky, ať už vizuálně či mentálně.",
+    reason: "Překlady odráží významový kontext návratu nebo vzpomínky, ať už vizuálně či mentálně.",
     example: "Při procházení starého domu ho zasáhl záblesk vzpomínek na dětství."
   },
   {
@@ -75,25 +84,25 @@ export const translations = [
   {
     id: 21,
     english: "Work-life balance",
-    czech: ["život-práce-poměr", "pracožití", "pracežití"],
+    czech: ["pracožití", "pracežití", "život-práce-poměr"],
     etymology: "Termín popisuje rovnováhu mezi pracovním a osobním životem.",
-    reason: "Překlady reflektují vyváženost a harmonii mezi prací a životem.",
+    reason: "Překlady reflektují vyváženost a soulad mezi prací a životem.",
     example: "Je důležité mít správný pracožití, abychom se vyhnuli vyhoření."
   },
   {
     id: 22,
     english: "Copium",
-    czech: ["únikol", "zvládium", "uklidňák"],
+    czech: ["únikol"],
     etymology: "Složenina slov 'cope' a 'opium', která ironicky popisuje útěchu v náročných situacích.",
-    reason: "Překlady kombinují slova pro únik a zvládání stresu, což odpovídá původnímu významu.",
+    reason: "Únikol kombinuje slovo únik a alkohol, což odpovídá původnímu významu cope(zvládnout,vyrovnat se) a opium(droga).",
     example: "Po prohře v turnaji jsem si musel dát trochu únikolu, abych to překonal."
   },
   {
     id: 23,
     english: "Mainstream",
     czech: ["běžnota", "hlavnoproud"],
-    etymology: "Mainstream označuje hlavní proud společnosti nebo kultury.",
-    reason: "Překlady reflektují dominantní proud v kultuře či myšlení.",
+    etymology: "Mainstream označuje hlavní proud/směr společnosti nebo kultury.",
+    reason: "Překlady odráží dominantní proud v kultuře či myšlení.",
     example: "Hudba, kterou poslouchal, byla spíše z běžnoty než z alternativní scény."
   },
   {
@@ -128,4 +137,21 @@ export const translations = [
     reason: "Doslovný překlad, který se používá i v českém jazyce jako symbol varování.",
     example: "Jeho neochota diskutovat o důležitých věcech byla velkou červenou vlajkou."
   },
+  {
+    id: 28,
+    english: "Deepfake",
+    czech: ["hloubkoklam"],
+    etymology: "Složenina slov 'hloubka' a 'klam', odrážející pokročilou technologii vytváření falešného obsahu.",
+    reason: "'Hloubkoklam' zachovává význam 'deep' (hluboký) z původního termínu a přidává 'klam', což vystihuje podvodnou povahu deepfake technologie.",
+    example: "Ten video příspěvek vypadal velmi realisticky, ale ukázalo se, že šlo o hloubkoklam vytvořený umělou inteligencí."
+  },
+  {
+    id: 29,
+    english: "Clickbait",
+    czech: ["návklik", "klikpast", "stiskpast"],
+    verb: ["návkliknout", "klikpastit", "stiskpastit"],
+    etymology: "Kombinace slov související s klikáním a lákáním či pastí, reflektující podstatu clickbaitu.",
+    reason: "'Návklik' kombinuje 'náv-' (jako v návnada) a 'klik'. 'Klikpast' a 'stiskpast' přímo spojují akci kliknutí s představou pasti.",
+    example: "Ten titulek byl typický návklik - sliboval senzaci, ale článek neobsahoval nic zajímavého."
+  }
 ];
