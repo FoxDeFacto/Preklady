@@ -18,6 +18,14 @@ export const translations = [
     example: "Po třech schůzkách jí prostě zduchnul, už se neozval."
   },
   {
+    id: 6,
+    english: "Banger",
+    czech: ["petarda"],
+    etymology: "Slovo 'banger' pochází z angličtiny, kde původně označovalo ohňostroj nebo petardu, ale v moderním slangu se také používá k označení velmi dobré písně.",
+    reason: "Překlad 'petarda' je doslovný překlad slova 'banger'.",
+    example: "Tato písnička je totální petarda, každý ji slyší a tancuje na ni."
+  },  
+  {
     id: 10,
     english: "Like",
     czech: ["palčík", "podobajka"],

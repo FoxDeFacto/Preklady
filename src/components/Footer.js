@@ -28,7 +28,7 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-2">Užitečné odkazy</h3>
             <ul>
               <li><a href="https://slovnikcestiny.cz/uvod.php" className="text-blue-600 hover:underline">Slovník češtiny</a></li>
-              <li><a href="https://github.com/FoxDeFacto" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">GitHub repozitář</a></li>
+              <li><a href="https://github.com/FoxDeFacto" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">GitHub</a></li>
             </ul>
           </div>
           <div className="w-full md:w-1/3">
