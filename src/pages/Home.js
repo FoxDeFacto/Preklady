@@ -3,7 +3,10 @@ import { Link } from 'react-router-dom';
 import { translations } from '../data/translations';
 
 const Home = () => {
-  const popularTranslations = translations.slice(0, 6);
+
+
+  const randomizedTranslations = translations.sort(() => 0.5 - Math.random());
+  const popularTranslations = randomizedTranslations.slice(0, 6);
 
   return (
     <div className="container mx-auto px-4 py-8">

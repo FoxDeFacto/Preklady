@@ -161,5 +161,22 @@ export const translations = [
     etymology: "Kombinace slov související s klikáním a lákáním či pastí, reflektující podstatu clickbaitu.",
     reason: "'Návklik' kombinuje 'náv-' (jako v návnada) a 'klik'. 'Klikpast' a 'stiskpast' přímo spojují akci kliknutí s představou pasti.",
     example: "Ten titulek byl typický návklik - sliboval senzaci, ale článek neobsahoval nic zajímavého."
+  },
+  {
+    id: 30,
+    english: "Cringe",
+    czech: ["trapno", "nechtobraní", "stydohrůza"],
+    verb: ["trapnout se", "nechtobrát", "stydohrůzit"],
+    etymology: "Odvozeno z anglického 'cringe' znamenajícího 'krčit se' nebo 'cítit se trapně'.",
+    reason: "'Trapno' je přímý překlad pocitu. 'Nechtobraní' je složenina slov 'nechtít' a 'brát', vyjadřující neochotu přijmout situaci. 'Stydohrůza' kombinuje stud a hrůzu, což vystihuje intenzitu pocitu.",
+    example: "To vystoupení bylo takové trapno, že jsem se musel odvrátit."
+  },
+  {
+    id: 31,
+    english: "Badass",
+    czech: ["zloprdelník"],
+    etymology: "Složenina slov 'zlo' a 'prdel', která odpovídá drsné povaze anglického výrazu 'badass'.",
+    reason: "'Zloprdelník' zachycuje esenci 'badass' - někoho, kdo je drsný, nebojácný a často porušuje pravidla. Slovo má podobně neformální a mírně vulgární nádech jako originál.",
+    example: "Ten nový kolega je totální zloprdelník, včera sám zvládl práci za celý tým."
   }
 ];
