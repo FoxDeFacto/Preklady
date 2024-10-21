@@ -44,7 +44,7 @@ export const translations = [
   {
     id: 14,
     english: "Flashback",
-    czech: ["záblesk", "prohled", "záhled", "pamětka"],
+    czech: ["záblesk", "prohled"],
     etymology: "Flashback je anglický termín označující náhlé vzpomínky nebo obrazy z minulosti.",
     reason: "Překlady odráží významový kontext návratu nebo vzpomínky, ať už vizuálně či mentálně.",
     example: "Při procházení starého domu ho zasáhl záblesk vzpomínek na dětství."
@@ -103,7 +103,7 @@ export const translations = [
     czech: ["únikol"],
     etymology: "Složenina slov 'cope' a 'opium', která ironicky popisuje útěchu v náročných situacích.",
     reason: "Únikol kombinuje slovo únik a alkohol, což odpovídá původnímu významu cope(zvládnout,vyrovnat se) a opium(droga).",
-    example: "Po prohře v turnaji jsem si musel dát trochu únikolu, abych to překonal."
+    example: "Myslí si, že to bude ještě dobrý, ten si musel dát hodně únikolu."
   },
   {
     id: 23,
@@ -160,7 +160,7 @@ export const translations = [
     verb: ["návkliknout", "klikpastit", "stiskpastit"],
     etymology: "Kombinace slov související s klikáním a lákáním či pastí, reflektující podstatu clickbaitu.",
     reason: "'Návklik' kombinuje 'náv-' (jako v návnada) a 'klik'. 'Klikpast' a 'stiskpast' přímo spojují akci kliknutí s představou pasti.",
-    example: "Ten titulek byl typický návklik - sliboval senzaci, ale článek neobsahoval nic zajímavého."
+    example: "Ten titulek byl totální návklik - sliboval něco úžasného, ale nebylo to nic moc."
   },
   {
     id: 30,
@@ -169,7 +169,7 @@ export const translations = [
     verb: ["trapnout se", "nechtobrát", "stydohrůzit"],
     etymology: "Odvozeno z anglického 'cringe' znamenajícího 'krčit se' nebo 'cítit se trapně'.",
     reason: "'Trapno' je přímý překlad pocitu. 'Nechtobraní' je složenina slov 'nechtít' a 'brát', vyjadřující neochotu přijmout situaci. 'Stydohrůza' kombinuje stud a hrůzu, což vystihuje intenzitu pocitu.",
-    example: "To vystoupení bylo takové trapno, že jsem se musel odvrátit."
+    example: "To vystoupení bylo takové trapno, že jsem se musel dát opušťák."
   },
   {
     id: 31,
@@ -178,5 +178,30 @@ export const translations = [
     etymology: "Složenina slov 'zlo' a 'prdel', která odpovídá drsné povaze anglického výrazu 'badass'.",
     reason: "'Zloprdelník' zachycuje esenci 'badass' - někoho, kdo je drsný, nebojácný a často porušuje pravidla. Slovo má podobně neformální a mírně vulgární nádech jako originál.",
     example: "Ten nový kolega je totální zloprdelník, včera sám zvládl práci za celý tým."
-  }
+  },
+  {
+    id: 32,
+    english: "Tryhard",
+    czech: ["hrotit", "potit"],
+    etymology: "Z anglického 'tryhard', což znamená někoho, kdo vyvíjí nepřiměřené úsilí v dosahování cíle, často bez ohledu na okolnosti.",
+    reason: "'Hrotit' vyjadřuje, jak se někdo soustředí a vyvíjí extrémní úsilí. 'Potit' je neformální výraz pro intenzivní snahu dosáhnout něčeho.",
+    example: "Franta to šel mega pohrotit, když mu řekli nový termín."
+},
+{
+    id: 33,
+    english: "Core-memory",
+    czech: ["kritická vzpomínka"],
+    etymology: "Z anglického 'core-memory', což označuje klíčovou vzpomínku, která má hluboký emocionální význam a ovlivňuje osobnost člověka.",
+    reason: "'Kritická vzpomínka' je přímý překlad konceptu, který zachycuje význam klíčové vzpomínky v životě jednotlivce.",
+    example: "Tohle je jedna z těch kritických vzpomínek, na kterou nikdy nezapomenu."
+},
+{
+    id: 34,
+    english: "Plot armor",
+    czech: ["zápletková zbroj"],
+    etymology: "Z anglického 'plot armor', což označuje situaci, kdy je postava v příběhu neporazitelná, protože ji chrání dějová linka.",
+    reason: "'Zápletková zbroj' je přímý překlad, který dobře vyjadřuje, že postava přežívá pouze díky zápletce, nikoliv svým schopnostem.",
+    example: "Hlavní hrdina měl jasnou zápletkovou zbroj, jinak by tam stopro zdechnul."
+}
+
 ];
